@@ -1,0 +1,34 @@
+{
+    "trips":[
+        {
+            "id": "1",
+            "title": "1 nights stay in Tehran",
+            "loc":"iran",
+            "price": "850T"
+        },
+        {
+            "id": "2",
+            "title": "2 nights stay in Isfahan",
+            "loc":"iran",
+            "price": "350T"
+        },
+        {
+            "id": "3",
+            "title": "3 nights stay in Ardbil",
+            "loc":"iran",
+            "price": "750T"
+        },
+        {
+            "id": "4",
+            "title": "4 nights stay in Oman",
+            "loc":"oman",
+            "price": "890T"
+        },
+        {
+            "id": "5",
+            "title": "5 nights stay in Istanbul",
+            "loc":"turkey",
+            "price": "1000T"
+        }
+    ]
+}
