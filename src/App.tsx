@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import SingleCard from "./component/SingleCard";
-interface Card {
+export interface Card {
   id: number;
   src: string;
+  matched : boolean
 }
 function App() {
   const cardImages1 = [
@@ -32,8 +33,8 @@ function App() {
   ];
   const [cards, setCards] = useState<Card[]>([]);
   const [turns, setTurns] = useState(0);
-  const [firstChoice, setFirstChoice] = useState(null);
-  const [secondChoice, setSecondChoice] = useState(null);
+  const [firstChoice, setFirstChoice] = useState<Card | null>(null);
+  const [secondChoice, setSecondChoice] = useState<Card | null>(null);
   const [disabled, setDisabled] = useState(false);
 
   const ShuffleCard = () => {
@@ -49,7 +50,7 @@ function App() {
     setCards(shuffledCards);
     setTurns(0);
   };
-  const handleCoice = (card: object) => {
+  const handleCoice = (card: Card) => {
     firstChoice ? setSecondChoice(card) : setFirstChoice(card);
     console.log(firstChoice)
     console.log(secondChoice)

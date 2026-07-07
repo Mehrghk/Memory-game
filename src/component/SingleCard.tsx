@@ -1,6 +1,7 @@
+import type { Card } from '../App.tsx';
 interface Props {
-  card: object;
-  handleCoice: (arg: object) => void;
+  card: Card;
+  handleCoice: (arg: Card) => void;
   flipped: any;
   disabled: boolean;
 }
