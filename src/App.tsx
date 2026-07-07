@@ -8,28 +8,28 @@ export interface Card {
 }
 function App() {
   const cardImages1 = [
-    { src: "src/assets/photos/Rabbit.png", matched: false },
-    { src: "src/assets/photos/RabbitStars.png", matched: false },
-    { src: "src/assets/photos/CatZeroPercent.png", matched: false },
-    { src: "src/assets/photos/Mouse.jpg", matched: false },
-    { src: "src/assets/photos/OmnomSpider.png", matched: false },
-    { src: "src/assets/photos/SleepyCat.png", matched: false },
+    { src: "blob/main/src/assets/photos/Rabbit.png", matched: false },
+    { src: "blob/main/src/assets/photos/RabbitStars.png", matched: false },
+    { src: "blob/main/src/assets/photos/CatZeroPercent.png", matched: false },
+    { src: "blob/main/src/assets/photos/Mouse.jpg", matched: false },
+    { src: "blob/main/src/assets/photos/OmnomSpider.png", matched: false },
+    { src: "blob/main/src/assets/photos/SleepyCat.png", matched: false },
   ];
   const cardImages2 = [
-    { src: "src/assets/3/Untitled-1.jpg", matched: false },
-    { src: "src/assets/3/Untitled-2.jpg", matched: false },
-    { src: "src/assets/3/Untitled-3.jpg", matched: false },
-    { src: "src/assets/3/Untitled-4.jpg", matched: false },
-    { src: "src/assets/3/Untitled-5.jpg", matched: false },
-    { src: "src/assets/3/Untitled-6.jpg", matched: false },
+    { src: "blob/main/src/assets/3/Untitled-1.jpg", matched: false },
+    { src: "blob/main/src/assets/3/Untitled-2.jpg", matched: false },
+    { src: "blob/main/src/assets/3/Untitled-3.jpg", matched: false },
+    { src: "blob/main/src/assets/3/Untitled-4.jpg", matched: false },
+    { src: "blob/main/src/assets/3/Untitled-5.jpg", matched: false },
+    { src: "blob/main/src/assets/3/Untitled-6.jpg", matched: false },
   ];
   const cardImages3  = [
-    { src: "src/assets/1/Untitled-1.jpg", matched: false },
-    { src: "src/assets/1/Untitled-2.jpg", matched: false },
-    { src: "src/assets/1/Untitled-3.jpg", matched: false },
-    { src: "src/assets/1/Untitled-4.jpg", matched: false },
-    { src: "src/assets/1/Untitled-5.jpg", matched: false },
-    { src: "src/assets/1/Untitled-6.jpg", matched: false },
+    { src: "blob/main/src/assets/1/Untitled-1.jpg", matched: false },
+    { src: "blob/main/src/assets/1/Untitled-2.jpg", matched: false },
+    { src: "blob/main/src/assets/1/Untitled-3.jpg", matched: false },
+    { src: "blob/main/src/assets/1/Untitled-4.jpg", matched: false },
+    { src: "blob/main/src/assets/1/Untitled-5.jpg", matched: false },
+    { src: "blob/main/src/assets/1/Untitled-6.jpg", matched: false },
   ];
   const [cards, setCards] = useState<Card[]>([]);
   const [turns, setTurns] = useState(0);
