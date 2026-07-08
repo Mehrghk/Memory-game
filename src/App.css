@@ -1,6 +1,41 @@
 .App{
   max-width: 860px;
   margin: 40px auto;
+  display: grid;
+  justify-items: center;
+  .image{
+    display: none;
+  }
+}
+.finished{
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  rotate: 180deg;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  
+}
+.FinishedCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  background-color: #2e303a;
+  border: 2px solid #787480;
+  border-radius: 10px;
+  width: 300px;
+  height: 130px;
+  z-index: 1;
+  padding: 35px 10px;
+  top: 250px;
+  span{
+    display: flex;
+    gap: 5px;
+  }
 }
 button{
   background: none;
@@ -54,6 +89,53 @@ button{
   } 
 
 }
+
+@media (max-width : 900px) {
+  .App{
+    max-width: 760px;
+    margin: 40px auto;
+  }
+  .card-grid{
+    grid-template-columns: repeat(4,1fr);
+
+    .card{
+      img{
+        width: 145px;
+        height: 145px;
+      }
+    }
+  }
+}
+@media (max-width : 700px) {
+  .App{
+    max-width: 660px;
+    margin: 40px auto;
+  }
+  .card-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media (max-width : 560px) {
+  .App{
+    max-width: 450px;
+    margin: 10px auto;
+    
+  }
+  .card-grid{
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    gap: 10px;
+
+    .card{
+      img{
+        width: 105px;
+        height: 105px;
+      }
+    }
+  }
+}
+
+
 
 
 
