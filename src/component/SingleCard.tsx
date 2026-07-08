@@ -17,7 +17,7 @@ const SingleCard = ({ card, handleCoice, flipped, disabled }: Props) => {
         <img className="front" src={card.src} alt="card front" />
         <img
           className="back"
-          src="Memory-game/assets/photos/cover.png"
+          src="/assets/photos/cover.png"
           alt="card back"
           onClick={handleClick}
         />
