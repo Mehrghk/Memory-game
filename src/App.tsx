@@ -8,12 +8,12 @@ export interface Card {
 }
 function App() {
   const cardImages1 = [
-    { src: "Memory-game/assets/photos/Rabbit.png", matched: false },
-    { src: "Memory-game/assets/photos/RabbitStars.png", matched: false },
-    { src: "Memory-game/assets/photos/CatZeroPercent.png", matched: false },
-    { src: "Memory-game/assets/photos/Mouse.jpg", matched: false },
-    { src: "Memory-game/assets/photos/OmnomSpider.png", matched: false },
-    { src: "Memory-game/assets/photos/SleepyCat.png", matched: false },
+    { src: "/Memory-game/assets/photos/Rabbit.png", matched: false },
+    { src: "/Memory-game/assets/photos/RabbitStars.png", matched: false },
+    { src: "/Memory-game/assets/photos/CatZeroPercent.png", matched: false },
+    { src: "/Memory-game/assets/photos/Mouse.jpg", matched: false },
+    { src: "/Memory-game/assets/photos/OmnomSpider.png", matched: false },
+    { src: "/Memory-game/assets/photos/SleepyCat.png", matched: false },
   ];
   const cardImages2 = [
     { src: "Memory-game/assets/3/Untitled-1.jpg", matched: false },
