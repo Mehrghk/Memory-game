@@ -122,7 +122,7 @@ function App() {
     <div className="App">
       <img 
         className={ showWinGif ? "finished" : "image"}
-        src="Memory-game/assets/finished.gif"
+        src="/Memory-game/assets/finished.gif"
         alt="Celebration!"
         />
       <h1>Memory Game</h1>
