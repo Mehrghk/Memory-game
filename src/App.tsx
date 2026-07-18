@@ -16,20 +16,20 @@ function App() {
     { src: "/Memory-game/assets/photos/SleepyCat.png", matched: false },
   ];
   const cardImages2 = [
-    { src: "Memory-game/assets/3/Untitled-1.jpg", matched: false },
-    { src: "Memory-game/assets/3/Untitled-2.jpg", matched: false },
-    { src: "Memory-game/assets/3/Untitled-3.jpg", matched: false },
-    { src: "Memory-game/assets/3/Untitled-4.jpg", matched: false },
-    { src: "Memory-game/assets/3/Untitled-5.jpg", matched: false },
-    { src: "Memory-game/assets/3/Untitled-6.jpg", matched: false },
+    { src: "/Memory-game/assets/3/Untitled-1.jpg", matched: false },
+    { src: "/Memory-game/assets/3/Untitled-2.jpg", matched: false },
+    { src: "/Memory-game/assets/3/Untitled-3.jpg", matched: false },
+    { src: "/Memory-game/assets/3/Untitled-4.jpg", matched: false },
+    { src: "/Memory-game/assets/3/Untitled-5.jpg", matched: false },
+    { src: "/Memory-game/assets/3/Untitled-6.jpg", matched: false },
   ];
   const cardImages3  = [
-    { src: "Memory-game/assets/1/Untitled-1.jpg", matched: false },
-    { src: "Memory-game/assets/1/Untitled-2.jpg", matched: false },
-    { src: "Memory-game/assets/1/Untitled-3.jpg", matched: false },
-    { src: "Memory-game/assets/1/Untitled-4.jpg", matched: false },
-    { src: "Memory-game/assets/1/Untitled-5.jpg", matched: false },
-    { src: "Memory-game/assets/1/Untitled-6.jpg", matched: false },
+    { src: "/Memory-game/assets/1/Untitled-1.jpg", matched: false },
+    { src: "/Memory-game/assets/1/Untitled-2.jpg", matched: false },
+    { src: "/Memory-game/assets/1/Untitled-3.jpg", matched: false },
+    { src: "/Memory-game/assets/1/Untitled-4.jpg", matched: false },
+    { src: "/Memory-game/assets/1/Untitled-5.jpg", matched: false },
+    { src: "/Memory-game/assets/1/Untitled-6.jpg", matched: false },
   ];
   const [cards, setCards] = useState<Card[]>([]);
   const [turns, setTurns] = useState(0);
